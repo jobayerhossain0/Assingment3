@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Rinterio</title>
+  </head>
+  <body class="font-manrope">
+    <header class="bg-[#F6F6F6]">
+      <nav class="container mx-auto flex items-center justify-between py-8 px-4">
+        <div>
+          <img src="./assets/logo.png" alt="" />
+        </div>
+        <div class="hidden lg:block">
+          <ul class="flex gap-9">
+            <li>
+              <a
+                class="text-[#737373] hover:text-[#494949] text-sm font-extrabold"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#737373] hover:text-[#494949] text-sm font-normal"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#737373] hover:text-[#494949] text-sm font-normal"
+                href="#"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#737373] hover:text-[#494949] text-sm font-normal"
+                href="#"
+                >Blog</a
+              >
+            </li>
+            <li>
+              <a
+                class="text-[#737373] hover:text-[#494949] text-sm font-normal"
+                href="#"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <div class="hidden md:flex items-center gap-2">
+            <div
+              class="bg-white rounded-full size-12 flex items-center justify-center"
+            >
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div
+              class="bg-white rounded-full size-12 flex items-center justify-center"
+            >
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <button
+              class="bg-[#abef5f] rounded-full text-[#1c1c1c] py-2 px-4 font-extrabold"
+            >
+              <span class="flex items-center gap-2"
+                >Book Consult <img src="./assets/arrow.png" alt=""
+              /></span>
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-white rounded-full size-12 flex items-center justify-center"
+        >
+          <i class="fa-solid fa-bars text-gray-400"></i>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+
+    <script>
+      /** @type {import('tailwindcss').Config} */
+      module.exports = {
+        content: ["./src/**/*.{html,js}"],
+        theme: {
+          extend: {
+            fontFamily: {
+              manrope: ["Manrope", "sans-serif"],
+            },
+          },
+        },
+        plugins: [],
+      };
+    </script>
+  </body>
+</html>
