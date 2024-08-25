@@ -253,9 +253,11 @@
           The barn house captivates with its blend of rustic charm and modern
           sophistication, <br />featuring weathered wood, sleek metal accents.
         </p>
-        <div class="container mx-auto space-y-4 ">
+        <div class="container mx-auto space-y-4">
           <div class="flex gap-4 flex-col lg:flex-row">
-            <div class="flex rounded-3xl border p-4 gap-4 basis-[70%] flex-col lg:flex-row">
+            <div
+              class="flex rounded-3xl border p-4 gap-4 basis-[70%] flex-col lg:flex-row"
+            >
               <img class="h-full w-auto" src="./assets/img1.png" alt="" />
 
               <div class="flex flex-col justify-between">
@@ -281,11 +283,13 @@
           </div>
           <div class="flex gap-4 flex-col lg:flex-row">
             <div class="rounded-2xl border w-auto h-full basis-[20%] p-4">
-              <img class="w-full h-auto "src="./assets/img3.png" alt="" />
+              <img class="w-full h-auto" src="./assets/img3.png" alt="" />
             </div>
-            <div class="flex basis-[60%] border rounded-2xl p-4 gap-4 flex-col lg:flex-row">
-              <img  src="./assets/img4.png" alt="" />
-              <div class="flex flex-col justify-between ">
+            <div
+              class="flex basis-[60%] border rounded-2xl p-4 gap-4 flex-col lg:flex-row"
+            >
+              <img src="./assets/img4.png" alt="" />
+              <div class="flex flex-col justify-between">
                 <h5 class="font-extrabold text-2xl text-[#494949]">
                   Commercial
                 </h5>
@@ -300,14 +304,98 @@
                 </button>
               </div>
             </div>
-            <div class="rounded-2xl border  basis-[20%] p-4">
-              <img class="w-full h-auto " src="./assets/img5.png" alt="" />
+            <div class="rounded-2xl border basis-[20%] p-4">
+              <img class="w-full h-auto" src="./assets/img5.png" alt="" />
             </div>
           </div>
         </div>
       </section>
+      <section
+        class="bg-[url('./assets/bg.jpg')] bg-no-repeat bg-cover bg-center space-y-7 py-24 px-4"
+      >
+        <div
+          class="bg-[#EEFCDF] flex justify-around p-3 items-center rounded-full w-[164px] h-[36px] mx-auto"
+        >
+          <i class="fa-solid fa-arrow-right"></i>
+          <p class="text-base font-bold text-[#494949]">Let’s Connect</p>
+        </div>
+        <h2 class="text-4xl font-bold text-[#212121] text-center">
+          Let’s Discuss Next Project
+        </h2>
+        <p class="font-medium text-[#494949] text-center">
+          The barn house captivates with its blend of rustic charm and modern
+          sophistication, <br />featuring weathered wood, sleek metal accents.
+        </p>
+        <form class="max-w-[970px] mx-auto space-y-5" action="">
+          <div
+            class="flex justify-between items-center gap-4 flex-col lg:flex-row"
+          >
+            <input
+              class="rounded-full w-full lg:basis-[50%] basis-full px-5 py-3"
+              placeholder="First Name*"
+              type="text"
+            />
+            <input
+              class="rounded-full w-full lg:basis-[50%] basis-full px-5 py-3"
+              placeholder="Last Name*"
+              type="text"
+            />
+          </div>
+          <div
+            class="flex justify-between items-center gap-4 flex-col lg:flex-row"
+          >
+            <input
+              class="rounded-full w-full lg:basis-[50%] basis-full px-5 py-3"
+              placeholder="Phone Number*"
+              type="tel"
+            />
+            <input
+              class="rounded-full w-full lg:basis-[50%] basis-full px-5 py-3"
+              placeholder="Email Number*"
+              type="email"
+            />
+          </div>
+          <div>
+            <textarea
+              rows="7"
+              class="rounded-xl w-full p-4"
+              placeholder="Write your message here"
+              name=""
+              id=""
+            ></textarea>
+          </div>
+
+          <button
+            class="bg-[#abef5f] rounded-full text-[#1c1c1c] py-2 px-4 font-extrabold w-full"
+          >
+            <span class="flex justify-center items-center gap-2"
+              >Send Mail <img src="./assets/arrow.png" alt=""
+            /></span>
+          </button>
+        </form>
+      </section>
     </main>
-    <footer></footer>
+    <footer  class="bg-[#1C1C1C] flex flex-col justify-center items-center space-y-5 py-20 px-4">
+      <img src="./assets/logo2.png" alt="" />
+      <p class="text-[#737373] font-medium text-center">
+        The barn house captivates with its blend of rustic charm and modern
+        sophistication,<br> featuring weathered wood, sleek metal accents.
+      </p>
+      <ul class="flex lg:gap-24 flex-col lg:flex-row gap-10 items-center">
+        <li><a class="text-[#e9e9e9]" href="#">Home</a></li>
+        <li><a class="text-[#e9e9e9]" href="#">Services</a></li>
+        <li><a class="text-[#e9e9e9]" href="#">Portfolio</a></li>
+        <li><a class="text-[#e9e9e9]" href="#">Blogs</a></li>
+        <li><a class="text-[#e9e9e9]" href="#">Contact Us</a></li>
+      </ul>
+      <button
+        class="bg-[#abef5f] rounded-full text-[#1c1c1c] py-2 px-4 font-extrabold w-full lg:w-auto "
+      >
+        <span class="flex items-center gap-2 justify-center"
+          >Book Consult <img src="./assets/arrow.png" alt=""
+        /></span>
+      </button>
+    </footer>
 
     <script>
       /** @type {import('tailwindcss').Config} */
